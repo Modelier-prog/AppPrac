@@ -3,9 +3,8 @@ workflows:
     name: Build Android APK
     max_build_duration: 60
     environment:
-      node: latest
-      ruby: latest
-      flutter: none
+      node: latest   # Node.js нужен для npm
+      flutter: none  # Flutter не нужен
     scripts:
       - name: Install dependencies
         script: npm install
