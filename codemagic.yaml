@@ -5,9 +5,7 @@ workflows:
     environment:
       node: latest
       ruby: latest
-      android:
-        build-tools: "33.0.0"
-        target-sdk: 33
+      flutter: none
     scripts:
       - name: Install dependencies
         script: npm install
