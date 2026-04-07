@@ -1,0 +1,5 @@
+{
+  "name": "TaskMaster Pro (RU)",
+  "description": "Гибридное мобильное приложение со списком задач, демонстрирующее архитектуру MVVM, интеграцию с REST API, тестирование и документацию.",
+  "requestFramePermissions": []
+}
